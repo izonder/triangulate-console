@@ -9,7 +9,7 @@ sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev build
 
 Installation
 ```
-sudo npm -g install git+https://github.com/izonder/triangulate-console.git
+sudo npm -g install git+https://github.com/izonder/triangulate-console.git --unsafe-perm
 ```
 
 Usage
