@@ -1,0 +1,36 @@
+{
+    "name": "triangulate-console",
+    "version": "0.0.1",
+    "description": "Console-script implementation of triangulate-image library (https://github.com/snorpey/triangulate-image)",
+    "engines": {
+        "node": ">=4.0.0"
+    },
+    "main": "src/index.js",
+    "bin": {
+        "triangulate-console": "./bin/console.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/izonder/triangulate-console.git"
+    },
+    "keywords": [
+        "triangulate",
+        "triangulate-image",
+        "triangulate-console",
+        "console",
+        "npm"
+    ],
+    "author": {
+        "name": "Dmitry Morgachev",
+        "email": "izonder@gmail.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/izonder/triangulate-console/issues"
+    },
+    "homepage": "https://github.com/izonder/triangulate-console#readme",
+    "dependencies": {
+        "triangulate-image": "0.2.0",
+        "optimist": "0.6.1"
+    }
+}
